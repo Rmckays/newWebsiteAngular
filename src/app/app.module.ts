@@ -9,6 +9,7 @@ import {CollapseModule} from "ngx-bootstrap/collapse";
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
     ShowcaseComponent,
     SkillsComponent,
     PortfolioComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

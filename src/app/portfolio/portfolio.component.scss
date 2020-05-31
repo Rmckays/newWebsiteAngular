@@ -9,6 +9,7 @@ $accent: #FBA736;
   color: $accent;
   text-align: center;
   padding: 1em 0 1em 0;
+  font-size: 1.3em;
 }
 
 .text-teal {
@@ -22,4 +23,18 @@ $accent: #FBA736;
 .text-orange:hover {
   color: $primary;
   text-decoration: none;
+}
+
+.text-slide {
+  font-size: 1.3em;
+}
+
+@media screen and (max-width: 600px){
+  .text-slide {
+    font-size: 1em;
+  }
+
+  .text-orange {
+    font-size: 1em;
+  }
 }
