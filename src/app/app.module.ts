@@ -4,22 +4,30 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import {CarouselModule} from "ngx-bootstrap/carousel";
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { NavigationComponent } from './navigation/navigation.component';
 import {CollapseModule} from "ngx-bootstrap/collapse";
+import { ShowcaseComponent } from './showcase/showcase.component';
+import { SkillsComponent } from './skills/skills.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { CarouselComponent } from './portfolio/carousel/carousel.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavigationComponent
+    NavigationComponent,
+    ShowcaseComponent,
+    SkillsComponent,
+    PortfolioComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CollapseModule,
+    CarouselModule.forRoot(),
     BrowserAnimationsModule,
-    CarouselModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -18,11 +18,12 @@ $accent: #FBA736;
   }
 }
 
-.nav-link-accent{
-  color: $accent !important;
-  text-decoration: none !important;
-}
-
 .btn-active:focus {
   border: none !important;
+}
+
+@media screen and (max-width: 600px){
+  .text-header {
+    display: none !important;
+  }
 }

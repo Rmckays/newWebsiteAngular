@@ -1,0 +1,37 @@
+$primary: #47A99C;
+$accent: #FBA736;
+
+.showcase-background {
+  background: url('/assets/images/backgroundImg.png') center center/cover;
+  height: 60vh;
+}
+
+.text-accent {
+  color: $accent;
+}
+
+.text-showcase {
+  font-size: 1.3em;
+}
+
+.text-teal {
+  color: $primary;
+}
+
+.text-orange {
+  color: $accent;
+}
+
+@media screen and (max-width: 600px){
+  .big-logo{
+    display: none;
+  }
+
+  .text-showcase {
+    text-align: center;
+  }
+
+  .showcase-background {
+    height: 90vh;
+  }
+}

@@ -1,0 +1,18 @@
+<carousel
+  [itemsPerSlide]="3"
+  [singleSlideOffset]="true"
+  [noWrap]="false">
+  <slide *ngFor="let slide of slides" class="mx-auto">
+    <div class="text-center py-2 bg-dark text-white">
+      <img [src]="slide.image" alt="image slide" class="img-fluid" style="display: block;">
+      <div class="lead">
+        <h2>{{slide.title}}</h2>
+        <p>{{slide.description}}</p>
+        <a href="{{slide.website}}">Try It!
+          <i class="fa fa-browser text-white"></i>
+        </a>
+      </div>
+    </div>
+  </slide>
+</carousel>
+<!--<app-carousel></app-carousel>-->

@@ -1,0 +1,37 @@
+$primary: #47A99C;
+$accent: #FBA736;
+
+.text-orange {
+  color: $accent;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+
+.text-teal {
+  color: $primary;
+}
+
+.skills-left {
+  text-align: end;
+  padding: 1rem 1rem 1rem 0;
+  font-size: 1.3em;
+}
+
+.skills-right {
+  font-size: 1.3em;
+  padding: 1rem 0 1rem 1rem;
+  border-left: 5px solid $accent;
+}
+
+@media screen and (max-width: 600px) {
+  .skills-left {
+    text-align: center;
+    padding: 0;
+  }
+
+  .skills-right {
+    text-align: center;
+    padding: 0;
+    border-left: none;
+  }
+}
