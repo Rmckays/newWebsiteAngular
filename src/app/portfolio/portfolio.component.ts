@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./portfolio.component.scss']
 })
 export class PortfolioComponent implements OnInit {
+  slidesPerPage: number;
+
   slides = [
     {
       title: 'Score Receiver',
@@ -42,6 +44,11 @@ export class PortfolioComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if(window.innerWidth < 600){
+      this.slidesPerPage = 1;
+    } else {
+      this.slidesPerPage = 2;
+    }
   }
 
 }

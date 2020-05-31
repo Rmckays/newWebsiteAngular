@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -10,7 +9,6 @@ import {CollapseModule} from "ngx-bootstrap/collapse";
 import { ShowcaseComponent } from './showcase/showcase.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { CarouselComponent } from './portfolio/carousel/carousel.component';
 
 
 @NgModule({
@@ -20,7 +18,6 @@ import { CarouselComponent } from './portfolio/carousel/carousel.component';
     ShowcaseComponent,
     SkillsComponent,
     PortfolioComponent,
-    CarouselComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,25 @@
+$primary: #47A99C;
+$accent: #FBA736;
+
+.bg-teal {
+  background-color: $primary !important;
+}
+
+.text-orange {
+  color: $accent;
+  text-align: center;
+  padding: 1em 0 1em 0;
+}
+
+.text-teal {
+  color: $primary;
+}
+
+.p-height {
+  height: 80px;
+}
+
+.text-orange:hover {
+  color: $primary;
+  text-decoration: none;
+}
