@@ -1,0 +1,28 @@
+$primary: #47A99C;
+$accent: #FBA736;
+
+.bg-teal {
+  background-color: $primary;
+}
+
+.bg-orange {
+  background-color: $accent;
+}
+
+.link-active {
+  color: $accent !important;
+
+  &:focus {
+    color: $accent !important;
+    text-decoration: none !important;
+  }
+}
+
+.nav-link-accent{
+  color: $accent !important;
+  text-decoration: none !important;
+}
+
+.btn-active:focus {
+  border: none !important;
+}
