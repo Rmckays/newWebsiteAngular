@@ -10,6 +10,7 @@ import { ShowcaseComponent } from './showcase/showcase.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AboutComponent } from './about/about.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { AboutComponent } from './about/about.component';
     SkillsComponent,
     PortfolioComponent,
     AboutComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
