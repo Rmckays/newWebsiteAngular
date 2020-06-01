@@ -19,7 +19,7 @@ export class PortfolioComponent implements OnInit {
     {
       title: 'Stock Maverick',
       description: "I have always been fascinated with the stock market. The result of this fascination is Stock Maverick, " +
-        "a fantasy stock trading app built using the IEX API.  Stock Maverick allows me to test my investing savy without financial consquence.",
+        "a fantasy stock trading app built using the IEX API.  Stock Maverick allows me to test my investing savvy without financial consquence.",
       github: 'https://github.com/Rmckays/StockMaverick',
       website: 'https://stockmaverick.azurewebsites.net/',
       image: 'assets/images/StockMav.JPG'
